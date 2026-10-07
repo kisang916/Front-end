@@ -1,0 +1,90 @@
+*{
+margin: 0; /* 여백은주지않는다 */
+padding: 0;/*  */
+list-style: none;/* 리스트스타일안쓰고싶어 */
+text-decoration: none;/* link밑줄안써 */
+text-align:center ;/* 글씨중앙정렬 */
+box-sizing: border-box;/* border박스쓸거 */
+color: #333;
+
+}
+
+.wrap{
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.a{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+}
+.a>.a1{
+    width: 300px;
+    height: 100px;
+    background-color: #837e7e;
+}
+.a>.a2{
+    width: 900px;
+    height: 100px;
+    background-color: #a39d9d;
+}
+
+.b{
+    width: 1200px;
+    height: 300px;
+    background-color: #050505;
+}
+
+
+.c{
+    width: 1200px;
+    height: 200px;
+    background-color: azure;
+    display: flex;
+}
+
+.c>.c1{
+    width: 1200px;
+    height: 200px;
+    background-color: #837e7e;
+}
+.c>.c2{
+    width: 1200px;
+    height: 200px;
+    background-color: #6d2525;
+}
+.c>.c3{
+    width: 1200px;
+    height: 200px;
+    background-color: #837e7e;
+}
+
+.d{
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    background-color: #aca9a9;
+}
+.d>.d1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(182, 133, 72);
+}
+
+.d>.d2{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(68, 68, 26);
+}
+.d2>.d-1{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(100, 126, 119);
+}
+.d2>.d-2{
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(121, 133, 130);
+}

@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  color: #333;
+}
+
+
+.wrap{
+   width: 1200px;
+   height: 700px;
+   margin: 0 auto; 
+   font-size: 30px;
+   
+}
+
+.header{
+    width: 1200px;
+   display: flex; 
+}
+.title{
+    width: 400px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.sub{
+    display: none;
+}

@@ -1,0 +1,111 @@
+*{
+    margin: 0; /* border은 초기값 0 이기에 */
+    padding: 0;
+    text-align: center;
+    text-decoration: none;  /* a링크에 밑줄없에는거 */
+    list-style: none; /*  */
+    color: #333;
+    box-sizing: border-box;     /* 둘중하나선택 보더박스
+    콘텐츠박스는 번거로움의문제때문에 보더박스많이씀*/
+
+}
+
+html, body { width: 100%; height: 100%}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    font-size: 30px;
+}
+
+.up{
+    width: 100%;
+    height: calc(100% - 120px);
+    background-color: #817777;
+    display: flex;
+}
+
+.A{
+    width: 200px;
+    height: 100%;
+    background-color: #5e5252;
+}
+
+.A>.a1{
+    width: 200px;
+    height: 120px;
+    background-color: #a18888;
+}
+.A>.a2{
+    width: 200px;
+    height: calc(100% - 120px);
+    background-color: #251212;
+}
+
+.C{
+    width: 400px;
+    height: 100%;
+    background-color: #8a6161;
+}
+.C>.c1{
+    width: 400px;
+    height: 10%;
+    background-color: #813f3f;
+}
+.C>.c2{
+    width: 400px;
+    height: 40%;
+    background-color: #291515;
+}
+.C>.c3{
+    width: 400px;
+    height: 40%;
+    background-color: #813f3f;
+}
+.C>.c4{
+    width: 400px;
+    height: 10%;
+    background-color: #411a1a;
+}
+
+.B{
+    width: calc(100% - 600px);
+    height: 100%;
+    background-color: #703030;
+}
+.B>.b{
+    width: 100%;
+    height: 100%;
+    background-color: #a56b6b;
+}
+
+.down{
+    width: 100%;
+    height: 120px;
+    background-color: #8b4d4d;
+    display: flex;
+}
+
+.left{
+    width: 200px;
+    height: 120px;
+    background-color: #b43b3b;
+}
+
+.right{
+    width: calc(100% - 200px);
+    height: 120px;
+    background-color: #220b0b;
+}
+
+.right>.right1{
+    width: 100%;
+    height: 60px;
+    background-color: #af2792;
+}
+.right>.right2{
+    width: 100%;
+    height: 60px;
+    background-color: #342d5e;
+}

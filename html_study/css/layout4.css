@@ -1,0 +1,104 @@
+*{
+    margin: 0; /* border은 초기값 0 이기에 */
+    padding: 0;
+    text-align: center;
+    text-decoration: none;  /* a링크에 밑줄없에는거 */
+    list-style: none; /*  */
+    color: #333;
+    box-sizing: border-box;     /* 둘중하나선택 보더박스
+    콘텐츠박스는 번거로움의문제때문에 보더박스많이씀*/
+}
+
+.wrap{
+    width: 1000px;
+    height: 650px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    font-size: 30px;
+    display: flex;
+}
+
+.a{
+    width: 200px;
+    height: 650px;
+    background-color: antiquewhite;/* 사실색깔은안나옴 */
+}
+
+.a>.a1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(163, 107, 142);/* 사실색깔은안나옴 */
+}
+.a>.a2{
+    width: 200px;
+    height: 550px;
+    background-color: rgb(153, 24, 110);/* 사실색깔은안나옴 */
+}
+
+.right{
+    width: 800px;
+    height: 650px;
+    background-color: aquamarine;
+}
+
+
+.b{
+    width: 800px;
+    height: 350px;
+    background-color: blue;
+}
+.c{
+    width: 800px;
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+}
+
+.c>.c1{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(141, 192, 192);
+}
+.c>.c2{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(86, 151, 151);
+}
+.c>.c3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(97, 155, 155);
+}
+.d{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(78, 61, 37);
+    display: flex;
+}
+
+.d>.d1{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(73, 51, 21);
+}
+.d>.d2{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(109, 80, 39);
+}
+
+.d>.d2>.up{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(17, 61, 90);
+}
+.d>.d2>.down{
+    width: 600px;
+    height: 50px;
+    background-color: rgb(56, 139, 194);
+}
+
+
+
+
+

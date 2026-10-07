@@ -1,0 +1,89 @@
+*{
+margin: 0; /* 여백은주지않는다 */
+padding: 0;/*  */
+list-style: none;/* 리스트스타일안쓰고싶어 */
+text-decoration: none;/* link밑줄안써 */
+text-align:center ;/* 글씨중앙정렬 */
+box-sizing: border-box;/* border박스쓸거 */
+color: #333;
+
+
+}
+
+.wrap{
+    width: 1200px; /* 폭은1200 */
+    height: 700px; /* 높이700 */
+    margin: 0 auto;
+    font-size: 50px;
+    
+}
+
+.a{
+        width: 1200px;
+        height: 100px;
+        display: flex;
+}
+
+.a>.a1{
+        width: 300px;
+        height: 100px;
+        background-color: #adc0e7;
+}
+
+.a>.a2{
+    width: 900px;
+    height: 100px;
+    background-color: #799feb;
+}
+
+.b{
+    width: 1200px;
+    height: 300px;
+    background-color: aqua;
+    
+    /* display flex 주면 글자가옆으로감
+    자손이없어서 그렇다고함 */
+}
+
+.c{
+    width: 1200px;
+    height: 200px;
+    background-color: #3b62b1;
+    display: flex;
+}
+
+.c>.c1{
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+}/* 바로직계자식은 >해줘야함 */
+.c>.c2{
+    width: 400px;
+    height: 200px;
+    background-color: #3462bd;
+}
+.c>.c3{
+    width: 400px;
+    height: 200px;
+    background-color: #13316e;
+}
+
+.d{width: 1200px;
+    height: 100px;
+    background-color: rgb(93, 177, 159);
+display: flex;}
+.d>.d1{
+    width: 200px;
+    height: 100px;
+    background-color: azure;
+}
+.d>.d2{
+    width: 800px;
+    height: 100px;
+    background-color: rgb(59, 88, 88);
+}
+.d>.d3{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(63, 73, 73);
+}

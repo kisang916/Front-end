@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  box-sizing: border-box;
+  color: #333;
+
+}
+.wrap{
+   width: 1200px;
+   height: 700px;
+   margin: 0 auto; 
+   font-size: 50px;
+}
+header.a{
+    width: 1200px;
+    height: 100px;
+    background-color: #d3671f;
+    display: flex;
+}
+
+.a>.a1{
+    width: 300px;
+    height: 100px;
+    background-color: #cfe778;
+}
+
+.a>.a2{
+    width: 900px;
+    height: 100px;
+    background-color: #99f037;
+    position: relative;
+}
+.a2 > .mainMenu {
+    font-size: 20px;
+    display: flex;
+    width: 800px;
+    position: absolute; 
+    top: 50px;
+    left: 100px;
+}
+.a2 > .mainMenu > ul > li.menuItem{
+    display: flex;
+    width: 200px; 
+    position: relative;
+}
+.a2 > .mainMenu > ul > li.menuItem > a{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #b1023c;
+    color: white;
+    width: 200px; 
+}
+.a2 > .mainMenu > ul > li.menuItem:hover > a{
+    display: block;
+}
+.a2 > .mainMenu > ul > li.menuItem > .subMenu{
+    
+    display: none;
+    position: absolute;
+    top:50px;
+    left: 60px;
+    background-color: #e3e7bc;
+    width: 100px;
+    
+}
+
+.a2 > .mainMenu > ul > li.menuItem > .subMenu a:hover{
+    color: #fff;
+    font-weight: 700;
+}
+
+
+
+.b{
+    width: 1200px;
+    height: 300px;
+    background-color: #5c92d8;
+}
+
+.swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #444;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+
+.c{
+    width: 1200px;
+    height: 200px;
+    background-color: #e1a1f1;
+    display: flex;
+}
+
+.c>.c1{
+    width: 400px;
+    height: 200px;
+    background-color: #ec78ec;
+}
+
+.c>.c2{
+    width: 400px;
+    height: 200px;
+    background-color: #e250e2;
+}
+
+.c>.c3{
+    width: 400px;
+    height: 200px;
+    background-color: #f005f0;
+}
+
+.d{
+    width: 1200px;
+    height: 100px;
+    background-color: #7d25e2;
+    display: flex;
+}
+
+.d>.d1{
+    width: 200px;
+    height: 100px;
+    background-color: #eb5285;
+}
+
+.d>.d2{
+    width: 800px;
+    height: 100px;
+    background-color: #eb185e;
+}
+
+.d>.d3{
+    width: 200px;
+    height: 100px;
+    background-color: #b1023c;
+}
+
+
+
+
