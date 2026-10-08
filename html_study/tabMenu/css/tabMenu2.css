@@ -1,0 +1,85 @@
+
+.wrap{
+    width: 800px;
+}
+
+
+.logo{
+    margin-right: 20px;    
+}
+.explain{
+    margin-right: 10px; 
+}
+.explain2{
+    margin-right: 10px; 
+}
+
+.up{
+    display: flex;
+    }
+
+.tab-box{
+    width: 500px;
+    margin: 50px auto;/* 위아래 50 오른쪽왼쪽 가운데 */
+    
+}
+
+.tabs{
+    display: flex;
+    position: relative;
+}
+
+.tab{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    cursor: pointer; /* 커서 대면 손가락이나옴 */
+}
+
+/* 같은태그의 2개의 클래스지정 */
+.tab.active {
+
+    background-color: #fff;
+    font-weight: 800; /* 글씨 굵기 */
+
+}
+
+
+.content{
+    position: absolute;
+    top: 180px;
+    left: 150px;
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 500px;
+    height: 200px;
+    background-color: #eee;
+
+}
+.content.active{
+    display: block; /* none의 반대가 block */
+}
+
+.content li {
+    padding: 5px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+
+}
+
+ul{
+    list-style-type: circle;
+}
+
+
+.gallery img{
+    width: 130px;
+    height: 80px;
+    object-fit: cover;
+}
+

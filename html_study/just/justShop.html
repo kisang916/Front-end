@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>justShop</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <title>레이아웃 연습</title>
+    <link  rel="stylesheet"
+           href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+  
     <link rel="stylesheet" href="./css/justShop.css">
     
     
-</head>
+   </head>
 <body>
-   
     <div class="wrap">
-        <header class="a">
+         <header class="a">
             <div class="a1"> 
               <a href="javascript:void(0)" class="logo">
                  <img src="./images/logo.png" alt="logo">
-                 
               </a>      
             </div>
 
-            <nav class="a2">
+            <div class="a2">
                <nav class="mainMenu">
                  <ul>
                    <li class="menuItem">
@@ -33,7 +33,6 @@
                      </ul>
                    </li>
                  </ul>
-
                  <ul>
                    <li class="menuItem">
                        <a href="">아우터</a>
@@ -45,7 +44,6 @@
                      </ul>  
                    </li>
                  </ul>
-
                  <ul>
                    <li class="menuItem"> 
                        <a href="">팬츠</a>
@@ -57,61 +55,92 @@
                      </ul>
                    </li>
                  </ul>
-
                  <ul>
                     <li class="menuItem">
                         <a href="">악세사리</a>
                         <ul class="subMenu">
-                        <li><a href="">귀고리</a></li>
-                        <li><a href="">목걸이</a></li>
-                        <li><a href="">바지</a></li>
-                        <li><a href="">팔찌</a></li>
-                     </ul> 
+                           <li><a href="">귀고리</a></li>
+                           <li><a href="">목걸이</a></li>
+                           <li><a href="">바지</a></li>
+                           <li><a href="">팔찌</a></li>
+                        </ul> 
                     </li>
                  </ul>
    
                </nav>
          </header>
+         
          <!-- 이미지 슬라이드 -->
-        <div class="b">
-         <div class="swiper mySwiper">
+         <div class="b"> 
+             <!-- Swiper -->
+    <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><a href=""><img src="./images/img1.jpg" alt="img1"></a></div>
-        <div class="swiper-slide"><a href=""><img src="./images/img2.jpg" alt="img2"></div>
-        <div class="swiper-slide"><a href=""><img src="./images/img3.jpg" alt="img3"></div>
-        <div class="swiper-slide"><a href=""><img src="./images/img4.jpg" alt="img4"></div>
-        <div class="swiper-slide"><a href=""><img src="./images/img5.jpg" alt="img5"></div>
-        <div class="swiper-slide"><a href=""><img src="./images/img6.jpg" alt="img6"></div>
-        
-      </div>
+        <div class="swiper-slide">
+                <a href=""><img src="./images/img1.jpg" alt="img1"></a> 
+        </div>
+        <div class="swiper-slide">
+               <a href=""><img src="./images/img2.jpg" alt="img2"></a>     
+        </div>
+        <div class="swiper-slide">
+              <a href=""><img src="./images/img3.jpg" alt="img3"></a>  
+        </div>
+        <div class="swiper-slide">
+             <a href=""><img src="./images/img4.jpg" alt="img4"></a>  
+        </div>
+        <div class="swiper-slide">
+             <a href=""><img src="./images/img5.jpg" alt="img5"></a>  
+        </div>
+        <div class="swiper-slide">
+            <a href=""><img src="./images/img6.jpg" alt="img6"></a>  
+        </div>
+       </div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
-       <div class="swiper-pagination"></div>
+      <div class="swiper-pagination"></div>
     </div>
-          
+         
+         
+         
+         </div>
 
 
-          
+         <div class="c">
+            <div class="c1">
+                 <div class="tab-box">
+        <div class="tabs">
+            <button class="tab active">공지사항</button>
+            <button class="tab">갤러리</button>
         </div>
-        <div class="c">
-            <div class="c1">c1</div>
-            <div class="c2">c2</div>
-            <div class="c3">c3</div>
+        <div class="content active">
+            <ul>
+                <li>신규회원 대상 할인 이벤트 안내 </li>
+                <li>시즌 신규 의상 할인 안내</li>
+                <li>반품/상품 규정 안내</li>
+                <li>재입고 품목 안내</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="gallery">
+                <img src="./images/menu1.jpg" alt="이미지1">
+                <img src="./images/menu2.jpg" alt="이미지2">
+                <img src="./images/menu3.jpg" alt="이미지3">
+            </div>
         </div>
 
-        <div class="d">
-            <div class="d1">d1</div>
-            <div class="d2">d2</div>
-            <div class="d3">d3</div>
-        </div>
+     </div>     
+            
+              c1 </div>
+            <div class="c2"> c2 </div>
+            <div class="c3"> c3 </div>
+         </div>
+         <div class="d">
+            <div class="d1"> d1 </div>
+            <div class="d2"> d2 </div>
+            <div class="d3"> d3 </div>
+         </div> 
     </div>
-        
-    
-
-
-  </body>
+</body>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-    <script src="./js/justShop.js"></script>
-    <script src="./js/swiper.js"></script>
-
+    <script src="./js/swiper.js" ></script>
+    <script src="./js/justShop.js" ></script>
 </html>

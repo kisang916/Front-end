@@ -1,21 +1,4 @@
-const liEls = document.querySelectorAll('.menuItem');
-/* document전체를의미 menuItem(4개) 모두선택 */
-
-liEls.forEach(function(liEl) {
-
-    const subMenu = liEl.querySelector('.subMenu');
-
-    liEl.addEventListener('mouseenter', function() {
-        subMenu.style.display = 'block';
-    });
-
-    liEl.addEventListener('mouseleave', function() {
-        subMenu.style.display = 'none';
-    });
-
-});
-
-/* 탭 메뉴 */const tabsE1=document.querySelectorAll('.tab')
+const tabsE1=document.querySelectorAll('.tab')
 /* 웹페이지에서 -전부다선택해라 - tab 클래스를 전부다선택
 tabsE1이라는변수에 넣는다
 */
