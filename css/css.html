@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css1.css">
+    <style>
+        p {
+            color: blue;
+            font-size: 15px;
+            background-color: yellow;
+        }
+        .a { }
+        .b {}
+        .a.b { color: #e74d9a; }
+        .bb + .cc{ color: #d12634;} /*bb 인접한형제 c */
+        .bb ~ .ee{ color: #333;} /* bb 의형제 e */
+    </style>
+    
+</head>
+
+<body>
+    <h1> css 연결방법</h1>
+    <p style="color: red; font-size: 24px;">첫번째-인라인스타일</p>
+    <p class="a b">두번째</p>
+    <p>세번째</p>
+    <ul class="aa">
+        <li class="bb"> 선택자1 </li>
+        <li class="cc"> 선택자2 </li>
+    </ul>
+
+
+
+
+
+</body>
+</html>
